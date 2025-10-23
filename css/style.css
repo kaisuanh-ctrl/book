@@ -1,5 +1,5 @@
-.backgroudcolor {
-  background-color: #EDEBEA; }
+.bg-color {
+ background-color: #f5cd3a; }
 
 
  p{
@@ -30,12 +30,12 @@
   }
 
 .fw-bold {
-  color: #910202ef;  /* สีเดียวกันกับตัวหนาอื่น ๆ */
+  color: #0a2ea5fa;  /* สีเดียวกันกับตัวหนาอื่น ๆ */
 }
 
 
 .backgroundcolor {
-  background: linear-gradient(to right, #ff9a9e, #fcf195, #df2f3d);
+  background: linear-gradient(to right, #4eaad1, #b1f3de, #0231ce);
   /* ไล่สีจากชมพู → ครีม → ฟ้า */
   padding: 40px 0; /* เพิ่มช่องว่างด้านบนล่าง */
 }
@@ -49,22 +49,35 @@
   
   /* กำหนดสไตล์ให้คอลัมน์ฝั่งซ้าย */
 .left-column {
-  background-color: #fffbbc; /* สีครีมอ่อน */
+  background-color: #fffdce; /* สีครีมอ่อน */
   padding: 20px; /* เพิ่มช่องว่างภายใน */
   border-radius: 5px; /* ทำให้ขอบมนนิดหน่อย (ถ้าต้องการ) */
 }
 
 /* กำหนดสไตล์ให้คอลัมน์ฝั่งขวา */
 .right-column {
-  background-color: #ffeee3; /* สีเทาอ่อน */
+  background-color:  #ffffdb; /* สีเทาอ่อน */
   padding: 20px; /* เพิ่มช่องว่างภายใน */
   border-radius: 5px; 
 }
 
+/* ในไฟล์ style.css ของคุณ */
+.right-column ol {
+  padding-left: 0 !important;
+  padding-inline-start: 0 !important; /* ใส่ไปทั้ง 2 อันเลย กันเหนียว */
+}
+
+.bg-sky {
+ background-color: #d6f5ff; }
 
 
-body {
-  background-color: #cacacad2; /* สีครีม */
-  margin: 0;
-  font-family: sans-serif;
+ .left-column li {
+ font-weight:normal; }
+
+
+
+
+/* ใช้ฟอนต์ Sriracha กับ p และ li */
+p, li, h4, h2, h6{
+  font-family: 'Sriracha', cursive;
 }
